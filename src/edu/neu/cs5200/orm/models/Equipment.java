@@ -116,7 +116,7 @@ public class Equipment implements Serializable {
 
     @Override
     public boolean equals(Object object) {
-        // TODO: Warning - this method won't work in the case the id fields are not set
+        
         if (!(object instanceof Equipment)) {
             return false;
         }
@@ -129,7 +129,7 @@ public class Equipment implements Serializable {
 
     @Override
     public String toString() {
-        return "cs5200.entity.Equipment[ id=" + id + " ]";
+        return "edu.neu.cs5200.orm.models.Equipment[ id=" + id + " ]";
     }
     
 }

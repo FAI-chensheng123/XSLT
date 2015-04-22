@@ -1,10 +1,9 @@
 package edu.neu.cs5200.orm.dao;
 
-import edu.neu.cs5200.orm.models;
-
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
@@ -18,6 +17,9 @@ import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
+
+import edu.neu.cs5200.orm.models.Site;
+import edu.neu.cs5200.orm.models.SiteList;
 
 
 public class SiteDAO {
